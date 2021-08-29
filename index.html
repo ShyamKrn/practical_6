@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            text-align: center;
+        }
         #container
         {
             display: inline-flex;
@@ -15,7 +22,10 @@
             width: 360px;
            overflow: hidden;
            background-color: aqua;
-          margin-right: 10px;
+          margin-left: 20px;
+          border-radius: 10px;
+          text-align: justify;
+          padding: 20px;
         }
         #box1
         {
@@ -29,37 +39,62 @@
         {
             background-color:teal ;
         }
+        .box img
+        {
+           text-align: center;
+           border-radius: 10px;
+        }
+        .box h2
+        {
+            text-align: center;
+        }
+        .mybutton
+        {
+            display:block;
+            margin-top: 10px;
+            text-decoration: none;
+            color:white;
+            background-color: tomato;
+            padding:10px 20px;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
     <div id="container">
     <div class="box" id="box1">
-        <img src="./assets/HTMLimage.png" alt="image does not exist">
-        <br/>
-The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can 
-be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
-Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML 
-describes the structure of a web page semantically and originally included cues for the appearance of the document.
+        <div class="image" style="text-align: center;"><img src="./assets/HTMLimage.png" alt="image does not exist" ></div>
+        <h2>Introduction to HTML</h2>
+        
+        <div class="image" style=""><p>
+        The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can 
+        be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+        Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML 
+        describes the structure of a web page semantically and originally included cues for the appearance of the document.</p></div>
+
+        <div class="image" style="text-align: center;">
+            <a href="#" class="mybutton">Read More</a>
+        </div>
     </div>
     <div class="box" id="box2">
-        <img src="./assets/HTMLimage.png" alt="image does not exist">
-        <br/>
+        <div class="image"><img src="./assets/HTMLimage.png" alt="image does not exist" ></div>
+        <h2>Introduction to HTML</h2>
 The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can 
 be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
 Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML 
 describes the structure of a web page semantically and originally included cues for the appearance of the document.
     </div>
     <div class="box" id="box3">
-        <img src="./assets/HTMLimage.png" alt="image does not exist">
-        <br/>
+        <div class="image"><img src="./assets/HTMLimage.png" alt="image does not exist" ></div>
+        <h2>Introduction to HTML</h2>
 The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can 
 be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
 Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML 
 describes the structure of a web page semantically and originally included cues for the appearance of the document.
     </div>
     <div class="box" id="box4">
-        <img src="./assets/HTMLimage.png" alt="image does not exist">
-        <br/>
+        <div class="image"><img src="./assets/HTMLimage.png" alt="image does not exist" ></div>
+        <h2>Introduction to HTML</h2>
 The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can 
 be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
 Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML 
